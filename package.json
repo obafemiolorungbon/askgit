@@ -1,0 +1,33 @@
+{
+  "name": "askgit",
+  "version": "1.0.0",
+  "description": "command line git help that shows the result of any given git command",
+  "main": "index.js",
+  "bin": {
+    "askgit": "bin/cli.js"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js, ./",
+    "lint:fix": "eslint --fix --ext .js, ./",
+    "test": "set NODE_ENV=test&&jest ",
+    "test-dev": "set NODE_ENV=test&&jest --watchAll --detectOpenHandles",
+    "test-ci": "set NODE_ENV=test&&jest --ci --detectOpenHandles"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "commander": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-flowtype": "^5.8.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}

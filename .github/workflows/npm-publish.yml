@@ -27,7 +27,8 @@ jobs:
         with:
           node-version: 14
           registry-url: https://www.npmjs.com/package/askgit
+          always-auth: true
       - run: yarn install
       - run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NPM_AUTH_TOKEN: ${{secrets.npm_token}}

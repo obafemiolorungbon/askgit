@@ -1,6 +1,5 @@
 const parser = require('commander');
 const { handleFirstArgv, handleTopLevel } = require('./lib/index.js');
-const { parseArgv } = require('./lib/utils/parseGitBaseCommand.js');
 // TODO
 // What Happens
 

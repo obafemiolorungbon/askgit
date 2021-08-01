@@ -1,6 +1,6 @@
 {
   "name": "askgit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "command line git help that shows the result of any given git command",
   "main": "index.js",
   "bin": {

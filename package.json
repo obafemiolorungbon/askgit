@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix --ext .js",
     "test": "set NODE_ENV=test&&jest ",
     "test-dev": "set NODE_ENV=test&&jest --watchAll --detectOpenHandles",
-    "test-ci": "set NODE_ENV=test&&jest --ci --detectOpenHandles"
+    "test-ci": "set NODE_ENV=test&&jest --ci --detectOpenHandles",
+    "pub": "npm version patch && npm publish"
   },
   "license": "MIT",
   "private": false,

@@ -7,8 +7,8 @@
     "askgit": "bin/cli.js"
   },
   "scripts": {
-    "lint": "eslint --ext .js, ./",
-    "lint:fix": "eslint --fix --ext .js, ./",
+    "lint": "eslint --ext .js",
+    "lint:fix": "eslint --fix --ext .js",
     "test": "set NODE_ENV=test&&jest ",
     "test-dev": "set NODE_ENV=test&&jest --watchAll --detectOpenHandles",
     "test-ci": "set NODE_ENV=test&&jest --ci --detectOpenHandles"

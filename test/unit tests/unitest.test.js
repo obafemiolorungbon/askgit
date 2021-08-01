@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const { handleGit, handleError, handleHelp } = require('../../lib/parseFirstArg.js');
+const { handleGit, handleError, handleHelp } = require('../../lib/utils/parseFirstArg.js');
 
 describe('HANDLE FIRST ARGV', () => {
   it('Should return same input if passed', () => {

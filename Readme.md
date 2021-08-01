@@ -4,7 +4,7 @@
 
 Ask Git is a command line tool that interpretes git commands without leaving the terminal. Write your git command, pass it ask git and it will interprete what the command will perform on your file or directory as well as the result.
 
-Want to Write a command but not sure what tehe outcome will be? then ask git!!!
+Want to Write a command but not sure what the outcome will be? then ask git!!!
 
 ## USAGE
 
@@ -33,4 +33,4 @@ askgit will output the results of the git command, with your personalized option
 
 NB: More Git commands are being added everytime, and they are worded in a much less technical and beginner friendly manner.
 
-Seen a bug? report [herer](https://github.com/obafemiolorungbon/askgit/issues)
+Seen a bug? report [here](https://github.com/obafemiolorungbon/askgit/issues). Will you like to contribute, then check the [contributing guide](./contributing.md)

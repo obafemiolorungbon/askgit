@@ -33,4 +33,4 @@ askgit will output the results of the git command, with your personalized option
 
 NB: More Git commands are being added everytime, and they are worded in a much less technical and beginner friendly manner.
 
-Seen a bug? report [here](https://github.com/obafemiolorungbon/askgit/issues). Will you like to contribute, then check the [contributing guide](./contributing.md)
+Seen a bug? report [here](https://github.com/obafemiolorungbon/askgit/issues). Will you like to contribute, then check the [contributing guide](https://github.com/obafemiolorungbon/askgit/blob/main/Contributing.md)
